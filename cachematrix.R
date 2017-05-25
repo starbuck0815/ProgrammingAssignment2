@@ -5,8 +5,9 @@
 
 ## makeCacheMatrix takes an input matrix and generates an output object, 
 ## which is a list of four functions (get matrix, set matrix, get inverse of 
-## matrix, set inverse of matrix). This object serves as input to the 
-## "cacheSolve" function where the actual calculation is carried out
+## matrix, set inverse of matrix) and can cache its inverse. This object serves 
+## as input to the "cacheSolve" function where the actual calculation is 
+## carried out
 ## 
 
 makeCacheMatrix <- function(x = matrix()) {
