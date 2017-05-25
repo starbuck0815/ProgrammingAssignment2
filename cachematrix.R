@@ -1,7 +1,7 @@
-## The purpose of these functions is to calcualte the inverse of an input 
-## matrix. If the result has been calculated previously, it should be retrieved
-##  from cache instead of calculated again, potentially reducing computing time
-## for large input matrices.
+## The purpose of these functions is to calcualte and cache the inverse of an 
+## input matrix. If the result has been calculated previously, it should be 
+## retrieved from cache instead of calculated again, potentially reducing 
+## computing time for large input matrices.
 
 ## makeCacheMatrix takes an input matrix and generates an output object, 
 ## which is a list of four functions (get matrix, set matrix, get inverse of 
