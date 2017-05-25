@@ -37,6 +37,9 @@ makeCacheMatrix <- function(x = matrix()) {
 ## cache. If the result already exists in the cache, it is read and returned
 ## without calculation.
 
+## for this assignment, it is assumed that all input matrices are invertible,
+## therefore the properties of the matrix are not explicitly checked.
+
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
         
